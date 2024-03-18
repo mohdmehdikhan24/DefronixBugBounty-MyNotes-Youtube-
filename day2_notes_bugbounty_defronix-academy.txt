@@ -1,0 +1,31 @@
+Day 2
+
+Before starting bug hunting:
+1. Check in-scopes and off-scopes.
+2. Follow rules given by bug bounty programs.
+3. Report impactful vulnerabilities.
+4. Read reports from hactivity on hackerone.
+
+
+Choosing right target for bug hunting:
+
+1. Give priority to Large scoped programs. Do not neglect small scoped programs.
+2. Enter in a program that gives no or less bounties. (in initial days)
+3. Check triage(response) time. Priorities to less triage time.
+4. Programs must be according to your skills.
+5. Hunt on those features(app, website, api etc) that has potentially less researchers.
+6. Use Google dorks. (and filter the search using filter tool on search engines)
+
+
+
+Tools:
+
+1. AssetFinder by tomnomnom (github) 
+
+
+Assignment:
+1. Study OWASP Top 10 and OWASP Top 10 - 2021 on tryhackme
+
+
+
+Links: Whatsapp => https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbjV2S3JXWlFBeEpwWkpYWWxDcmNTeXJBY2pkd3xBQ3Jtc0tuWVFPTjdQZUxtYjRvYTVRenYwY2NLaFFjSTkzZkpaRzFmaWpzaF9jVnJmWm1PRmJaOG9pblM0bmZGQ3FGUGRUSWQyUFRrMF9OTVlmZ1Y1Rzh5N1dEOV8wLVkwWVJwbk9MNUhDT2dKWFFCb0xzUW91RQ&q=https%3A%2F%2Fwww.whatsapp.com%2Fchannel%2F0029VaGltobEKyZ8eX8Ki82w&v=At4S7iHi7a4

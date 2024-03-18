@@ -1,0 +1,23 @@
+Day 1
+
+List of Bug Bounty Program platforms:
+
+1. HackerOne
+2. Detectify
+3. Bugcrowd
+4. Synack
+5. Cobalt
+6. Open bug bounty
+7. Zerocopter
+8. Yes We Hack
+9. HackenProof
+10. AntiHack
+11. Vulnerability Lab
+12. FireBounty
+13. Intigriti
+14. Cyber Army ID
+15. SafeHats
+16. Red Storm
+17. Yogosha
+
+* Reconnaissance is 70%
