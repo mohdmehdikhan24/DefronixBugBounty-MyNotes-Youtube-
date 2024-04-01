@@ -1,0 +1,36 @@
+Day 3 & Day 4 - Extra classes for Android Pentesting
+
+#Day_5
+
+CIDR = to manage IP Pool in big companies
+ASN = to associate IP address and who owns it
+
+We will find::
+
+Horizontal subdomains = different subdomains at same level.
+For example - instagram, whatsapp, facebook
+
+Vertical subdomains = subdomains under subdomains.
+for example - xyz.com, admin.xyz.com, blog.xyz.com
+
+IP Blocks = how big ranges for ip is, of a particular company.
+Tools: arin whois
+
+How to use these tool:: (here, for facebook)
+1. open whois and search for facebook.com
+2. note down ASN number.
+3. Now for CIDR, go to mxtoolbox.com and navigate to super tool. Find ASN Lookup, enter ASN number and submit it.
+4. Copy any CIDR and paste it in ipaddressguide.com to get Total Hosts, First and last IP.
+5. Use First and Last IPs to get all IP addresses using Angry IP Scanner. And check open services and vulnerabilities.
+
+** You can also use bgp.he.net to get ASN informations and viewdns.info tool.
+** Reverse whois lookup shows all related domains for individual or email.
+** lopseg.com to get all information about domains.
+** whoxy.com
+
+Technology profilers::
+** wappalyzer - Google chrome extension
+** builwith.com
+
+Extra tools::
+1. Amass
