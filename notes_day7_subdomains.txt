@@ -1,0 +1,17 @@
+Day 7 :: Find Subdomains
+
+1. Find as many sub-domains as possible
+2. Remove the duplicates
+3. Sort out the live subdomains.
+4. Screenshot
+
+
+Tools::
+1. subfinder (should use API key for better results)
+2. amass (should use API key for better results)
+3. httpx-toolkit (find live subdomains)
+4. eyewitness (screenshot)
+
+
+Commands::
+1. ffuf -u "http://FUZZ.domain.com -w <wordlist>   (for subdomains)
