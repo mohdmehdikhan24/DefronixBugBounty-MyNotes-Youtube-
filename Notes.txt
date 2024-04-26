@@ -1,0 +1,18 @@
+day 8 :: Subdomains Finder
+
+ find subdomains of subdomains
+ 
+ 1. same as day 7
+ 2. use below tools
+ (shuffledns -d DOMAIN_NAME -w WORDLIST -r RESOLVER.txt -o OUTPUT_FILE -v)
+ 
+ 
+ 
+ 
+ Tools::
+ 1. OneForAll (Github) - leverages high processing power(atleast 16GB RAM)
+ 2. shuffledns (Note: download from release) - not running in local machine. network intensive tool. run on VPS.
+ 3. ffuf
+ 4. massdns (must for shuffledns working)
+ 5. dirsearch
+ 
