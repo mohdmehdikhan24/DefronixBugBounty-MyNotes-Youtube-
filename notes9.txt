@@ -1,0 +1,16 @@
+
+#Day 10 - Defronix Academy
+Subdomain Take-over::
+
+--> CNAME(canonical name) is used to map one domain to another domain without giving IP Address.
+
+==> Suppose, I own a website named meowsecurity.com and I want to point to Github page when user clicks help.meowsecurity.com. For this, I used CNAME to map help.meowsecurity.com to the Github_repo_XYZ. After few years, I deleted Github_repo_XYZ but didn't delete the CNAME record that was used to map Github_repo_XYZ with help.meowsecurity.com. Anyone who will visit help.meowsecurity.com now, will see " 404 Page Not Found ".
+In this case, security researcher will try to takeover the domain by creating the same subdomain at the cloud service provider(Github etc)  uploading index.html. 
+
+URL:: https://github.com/EdOverflow/can-i-take-over-xyz
+Tool::  dig <domain_name>
+        nslookup <domain_name>
+	subzy (github)
+	subjack (apt install)
+	nuclei (install according to github) ( run once in shell, then directory will installed in .local )
+	
