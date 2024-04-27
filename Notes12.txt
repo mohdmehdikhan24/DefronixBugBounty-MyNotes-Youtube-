@@ -1,0 +1,27 @@
+#Day12 - Sensitive data from javascript files
+
+Steps::
+
+1. Find all subdomains or all links of the domain/subdomains.
+2.1. Use subjs piped with cat <subdomains_filename> to get all .js file
+2.2. Use katana to get js files from domain/list of subdomains.
+3. Use secretfinder to get possible URL.
+
+
+Tools::
+1. Katana
+2. Subjs
+3. getjs (003random github)
+4. secret finder (m4llok github)
+5. nuclei (using nuclei-templates)
+6. mantra
+7. JSLinkFinder (Burpsuite extension)
+
+COMMAND::
+
+1. cat file1 file2 > newFileHavingBothContent
+2. cat uniqueJSfinal_wise_noDuplicates.txt | while read url; do python3 SecretFinder.py -i $url -o cli > secrets.txt; done
+
+
+TASK::
+1. find all urls of subdomains of target domain, filter them, sort them and try to find secrets in js links.
