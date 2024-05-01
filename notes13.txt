@@ -1,0 +1,29 @@
+#Day_13
+Github Recon and Sensitive data exposure:
+
+::Methods::
+
+1. Manually:
+	1. Go to Github and search:
+		a. "repo" "dork"
+		b. "subdomain"
+		c. "target.com" API_key
+		d. "api.target.com"
+	2. Use NOT, to exclude any keyword.
+		example: "defronix.com" passwd NOT test
+	3. (optional) Follow the repo-owner to know him and his code better.
+
+
+2. Automated:
+
+	1. GitDorker - https://github.com/obheda12/GitDorker = requires github API
+	2. GitGraber - https://github.com/hisxo/gitGraber.git = requires github API
+	3. trufflehog - https://github.com/trufflesecurity/trufflehog.git
+
+3. Wordlists:
+	1. https://github.com/0xPugal/Awesome-Dorks/blob/master/github-dorks.txt
+	2. https://github.com/techgaun/github-dorks
+
+
+::Task::
+	1. Choose a target. Do manual/automated github recon to find secrets. Report, if found.
