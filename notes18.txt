@@ -1,0 +1,18 @@
+Day18 - XSS (Cross Site Scripting)
+
+Search::
+1. At any search form or input form.
+2. In any parameter.
+
+TYPES::
+
+1. Reflected XSS = jaisa ka taisa show ho jata hai.
+2. Stored XSS = database mein store ho jayega.
+3. DOM XSS = Javascript execution hota hai directly browser mein, bina kisi page ke load hue ya data submit hue in backend. (window.location ko exploit kiya jata hai.)
+4. Blind XSS = No popup/visual. pata hi nahi chalega ki payload kam kiya ya nahi. bas intezaar karo, uske response after execution ka.
+
+Imp. points::
+1. Source code mein double quotes mein maujood payload kabhi execute nahi hoga. double quotes se bahar laao.
+
+Tools::
+1. xss hunter express (github) for blind xss.
